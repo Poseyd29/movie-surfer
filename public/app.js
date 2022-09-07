@@ -3,11 +3,12 @@ const searchMovieInput = document.querySelector('search-movie')
 
 
 
-let searchMovie = () => {
-    console.log('worked?')
+function searchMovie() {
+    console.log('working?')
+    res.redirect('/')
 }
 
-searchMovieBtn.addEventListener('submit', searchMovie)
+searchMovieBtn.addEventListener('click', searchMovie)
 
 
 console.log('linked')
